@@ -1,0 +1,12 @@
+{% load static %}
+
+<html>
+
+<body>
+    <img src="{{post.posts.url}}" alt="Smiley face" width="500" height="500">
+    <br />
+    <a href="{% url 'image_upload' %}">Upload a new image!</a>
+</body>
+
+</html>
+
